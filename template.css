@@ -1,0 +1,114 @@
+.header {
+	position: relative;
+	overflow: hidden;
+	background: #536976; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to bottom, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to bottom, #536976, #292e49);
+  	padding: 15px 10px;
+  	margin:-10px -10px 0px -10px;
+  	height:70px;
+}
+/*Top logo design*/
+.Yentrex {
+	margin-top:-13px;
+	margin-left:-8px;
+	width:20%;
+	height:70px;
+	padding: 20px;
+	float:left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	text-align: center;
+	background-color:#333354;
+	border-right:1px #ddccaa solid;
+}
+.Yentrex :hover{
+	color:#ddffff;
+	background-image:url("image/dark.jpg");
+	border-radius:10px;
+}
+.Yentrex a{
+	padding:10px;
+	height: auto;
+	text-decoration:none;
+	color:#aaaaaa;
+	font-size: 26px;
+}
+.top{
+	float:right;
+}
+
+.top a {
+	color:#aaaaaa;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.top a:hover{
+	background-color:#222222;
+	border-radius:10px;
+}
+div#imglogo{
+	width:3px;
+}
+div#toplink{
+	display:inline-block;
+	text-align: center;
+}
+div#div_main{
+	position:relative;
+}
+
+div#div_left{
+	position:absolute;
+	top:0px;
+	left:-10px;
+	bottom:0px;
+	width:10%;
+	background-color:#b5bad7;
+}
+.info{
+	position: relative;
+	background-image:linear-gradient(rgba(155,70,120,0.8), rgba(155,90,150,0.8)),url("image/chess.jpg");
+	margin-left:10%;
+	left:-10px;
+	padding:10px;
+	width:80%;
+	min-height: 100px;
+
+}
+div#description{
+	position: relative;
+	padding-left:25px;
+	text-align: left;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	font-family: 'Kanit', sans-serif;
+	font-style:italic;
+	font-size: 18px;
+	color:#aabfda;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.content{
+	margin-top:20px;
+	position: relative;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	padding:1em 0em;
+	min-height: 600px;
+}
+div#div_right{
+	position:absolute;
+	top:0px;
+	right:-10px;
+	bottom:0px;
+	width:10%;
+	background-color:#b5bad7;
+}
